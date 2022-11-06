@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages2/Salary.js"></script>
+
+
+
+Designation:<input type="text" id="txtDesignation" />
+<br />
+Salary:<input type="text" id="txtsalary" />
+<br />
+
+<input type="submit" value="Button" onclick="SaveSalary()" />
+
+        <table id="tblSalary" border="1">
+            <thead>
+                <tr>
+                <th>Id</th>
+                <th>Designation</th>
+                <th>salary</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    
